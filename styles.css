@@ -1,0 +1,244 @@
+:root{
+    --primary:#1E90FF;
+    --primary-text:#000000;
+    --Secondary:#e5e5e5;
+    --teritiary:#4169E1;
+    
+
+}
+*{ 
+    scroll-behavior: smooth;
+    
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto; 
+   
+}
+header nav .left a{
+    color: var(--primary-text);
+    text-decoration:none;
+    margin-right: 2rem; /*for space b/w links */
+    transition: all .3s ease;/* for smooth transition*/
+    font-size: 1.5rem;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 2rem 0;
+}
+header nav .left a:hover{
+    color: var(--Secondary);
+    text-decoration: underline;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--primary);
+    color: var(--Secondary);
+    border:2px solid var(--teritiary);
+    border-width: 0.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border-radius: 5px; 
+}
+.btn:hover{
+    background-color: var(--teritiary);
+    color: var(--primary-text);
+    
+}
+ .home{
+     display: flex;
+     text-align: center;
+    
+ }
+.home .right-home{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 3rem;
+    text-align: left;
+    margin:200px 200px 0px 0px;
+    padding: 0rem 8rem;
+    
+    
+}
+.home .right-home h2 span{
+    color: var(--primary);
+    
+}
+section .about{
+    align-content: justify;
+    
+    
+.team{
+    margin-left:10px;
+}  
+    
+}
+section p{
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1rem;
+    font-weight: 500;
+    text-indent: 7rem;
+   
+    
+
+}
+section .last{
+    padding: 25px 0px;
+    text-align: justify;
+}
+section h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    
+    font-size: 4rem;
+}
+section h1 span{
+    color: var(--primary);
+    
+}
+section h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 0px;
+    font-size: 1.5rem;
+
+}
+section .goals{
+    display: flex;
+}
+section h2{
+    padding: 8.5rem 0rem 1.7rem 0rem;
+    font-family: Arial, Helvetica, sans-serif; 
+     font-size: 2.35rem;
+     text-align: justify;
+     margin: 10px auto;
+     text-align: center;
+     
+}
+section h2 span{
+    color: var(--primary);
+}
+ li{
+    list-style-type: square ;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+section .skills{
+    display: flex;
+}
+section h2{
+    padding: 8.5rem 0rem 1.7rem 0rem;
+    font-family: Arial, Helvetica, sans-serif; 
+     font-size: 2.35rem;
+     text-align: justify;
+     margin: 60px auto;
+     text-align: center;
+}
+
+h4{
+   
+    font-family: Arial, Helvetica, sans-serif; 
+     font-size: 1.5rem;
+     text-align: justify;
+     margin: 0px auto; 
+     display: flex;
+   
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+  section .contact{
+    display: flex;
+}
+section h2{
+    padding: 8.5rem 0rem 1.7rem 0rem;
+    font-family: Arial, Helvetica, sans-serif; 
+     font-size: 2.35rem;
+     text-align: justify;
+     margin: 60px auto;
+     text-align: center;
+}
+form{
+    padding: 0.5rem 0rem 0rem 0rem;
+    font-family: Arial, Helvetica, sans-serif; 
+     font-size: 1.5rem;
+     text-align: justify;
+     margin: 10px auto;
+}   
+    
+    
+.contact-box{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid var(--primary);
+  
+}
+.submit{
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--primary);
+    color: var(--Secondary);
+    border:2px solid var(--teritiary);
+    border-width: 0.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border-radius: 5px; 
+    
+}
+.submit:hover{
+    background-color: var(--teritiary);
+    color: var(--primary-text);
+}
+
